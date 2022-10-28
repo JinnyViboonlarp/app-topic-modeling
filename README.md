@@ -3,7 +3,7 @@ A CLAMS application that wraps the sklearn topic-modeling NMF model
 
 The sklearn topic-modeling NMF model wrapped as a CLAMS service. The spaCy NLP tool is also wrapped along with the sklearn model, since it is needed for lemmatization in the pre-processing step. spaCy is distributed under the [MIT license](https://github.com/explosion/spaCy/blob/master/LICENSE).
 
-The codes for topic modeling are adapted from [Topic Modeling with Scikit Learn](https://blog.mlreview.com/topic-modeling-with-scikit-learn-e80d33668730) and [Topic Modeling with NMF for User Reviews Classification](https://pub.towardsai.net/topic-modeling-with-nmf-for-user-reviews-classification-65913d0b44fe)
+The codes for topic modeling are adapted from [Topic Modeling with Scikit Learn](https://blog.mlreview.com/topic-modeling-with-scikit-learn-e80d33668730) and [Topic Modeling with NMF for User Reviews Classification](https://pub.towardsai.net/topic-modeling-with-nmf-for-user-reviews-classification-65913d0b44fe). The topic-modeling NMF model is trained on 13023 NewHours transcripts, with the number of topics set to 50.
 
 This requires Python 3.6 or higher. For local install of required Python modules do:
 
