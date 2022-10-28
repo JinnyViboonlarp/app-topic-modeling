@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "mmif": "http://mmif.clams.ai/0.4.0"
+  },
+  "documents": [],
+  "views": [
+    {
+      "id": "v_0",
+      "metadata": {
+        "timestamp": "2022-08-18T19:44:39.790977",
+        "app": "",
+        "contains": {
+          "http://mmif.clams.ai/0.4.0/vocabulary/TextDocument": {}
+        }
+      },
+      "annotations": [
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/TextDocument",
+          "properties": {
+            "text": {
+              "@value": "Hello, this is Jim Lehrer with the NewsHour on PBS. In the nineteen eighties, barking dogs have increasingly become a problem in urban areas."
+            },
+            "id": "td1"
+          }
+        }
+      ]
+    }
+  ]
+}

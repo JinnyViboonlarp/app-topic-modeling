@@ -1,0 +1,109 @@
+It is named "nmf.sav"
+
+my_stop_words = text.ENGLISH_STOP_WORDS.union(["don","ll","mr","didn","dr"])
+nmf = NMF(n_components=50, random_state=42, max_iter=400) # n_component is number of topics
+tfidf_vectorizer = TfidfVectorizer( max_features=5000, stop_words=my_stop_words, max_df=0.95, min_df=10)
+
+created from 13023 NewHours documents
+Topic 25 is problematic
+
+Topic 0:
+obama newshour pbs women jobs said children issues foundation problems doesn best judy story cuts house world happened won kids
+Topic 1:
+clinton hillary donald bernie sander sanders cruz candidate convention campaign delegate rubio hampshire voter ted perot dole kasich race iowa
+Topic 2:
+trump donald newshour pbs women russia white said comey lisa judy house campaign llc mueller org productions administration 2016 investigation
+Topic 3:
+iraq saddam iraqi hussein war baghdad iraqis kuwait force military troop resolution united bush security weapon gulf council attack inspector
+Topic 4:
+election vote party voter candidate democrats campaign republican race poll win ballot democratic voting republicans governor turnout political florida primary
+Topic 5:
+court supreme justice case law judge decision justices federal marriage constitution ruling argument marcia scalia constitutional discrimination amendment legal lawyer
+Topic 6:
+soviet gorbachev union soviets summit moscow reagan arm poland europe missile united communist states republic pres agreement treaty germany shultz
+Topic 7:
+israel palestinian israeli palestinians peace israelis arafat gaza plo hamas arab jerusalem settlement east sharon netanyahu minister west middle prime
+Topic 8:
+senate house senator vote committee republicans sen democrats republican congress speaker member congressman gingrich pass amendment dole majority issue white
+Topic 9:
+rate inflation unemployment economy fed job recession growth jobs market percent recovery economic wage labor high reserve price worker employment
+Topic 10:
+school student teacher education college schools high test kids grade teach classroom parent class kid graduate math district university child
+Topic 11:
+health care insurance medicaid cost medicare patient coverage hospital plan doctor medical pay employer affordable physician reform premium uninsured program
+Topic 12:
+korea north korean koreans kim south jong nuclear peninsula missile summit war sanction military united regime test states leader missiles
+Topic 13:
+yeltsin russia russian boris clinton gorbachev moscow interpreter reform parliament dole chechnya republic communist political russians percent democracy coup power
+Topic 14:
+romney mitt obama santorum gingrich campaign rick iowa candidate newt jobs voter governor republican ryan debate perry presidential hampshire syrian
+Topic 15:
+afghanistan pakistan taliban laden bin afghan al qaida terrorist attack osama terrorism pakistani karzai kabul qaeda 11 intelligence war military
+Topic 16:
+iran iranian iranians hostage sanction deal ayatollah nuclear tehran united states saudi contra uranium islamic regime agreement israel gulf netanyahu
+Topic 17:
+company internet computer industry business microsoft consumer market product stock cable money technology big network service competition worker buy merger
+Topic 18:
+tax taxis income cut deduction pay rate revenue plan increase cuts proposal deficit taxpayer capital reform 000 business code benefit
+Topic 19:
+qaddafi libya libyan tripoli colonel benghazi rebels regime tsunami rebel radiation earthquake force nato zone military autism arab tunisia fly
+Topic 20:
+mondale reagan nicaragua salvador contra el hart jackson sandinista nicaraguan sandinistas administration guerrilla aid central walter ronald arm military honduras
+Topic 21:
+china chinese taiwan beijing hong kong trade world united human states asia currency relationship communist relation policy economic student democracy
+Topic 22:
+ukraine russia putin russian ukrainian crimea kiev russians vladimir sanction moscow eastern military nato european pro europe border west intelligence
+Topic 23:
+bosnia serbs bosnian clinton sarajevo war force somalia serb haiti troop sen peace military united nato nations gen sec percent
+Topic 24:
+drug cocaine fda marijuana heroin prescription drugs problem patient treatment colombia noriega enforcement addiction abuse medication pill cartel panama pharmaceutical
+Topic 25:
+th wh ha nd te en le se kavanaugh yo energy st obama pbs ma health chevron afghanistan afghan newshour
+Topic 26:
+child welfare family parent woman program job kid mother school percent problem poverty baby care life ms poor food children
+Topic 27:
+budget deficit cut spending billion defense program medicare congress reduction increase balanced federal debt social fiscal entitlement balance reagan money
+Topic 28:
+africa black south african apartheid mandela white sanction africans racial nelson united leader violence ambassador world civil man political race
+Topic 29:
+bush gore george dukakis campaign kerry quayle convention vice perot mccain issue candidate mark gergen shields david clinton john debate
+Topic 30:
+kosovo milosevic nato serbs serb refugee yugoslavia serbia serbian force war ethnic air bombing troop military ground europe missile alliance
+Topic 31:
+oil price gas energy opec barrel gulf gasoline saudi spill crude pipeline industry company production coal arabia natural drilling fuel
+Topic 32:
+mexico immigration border mexican immigrant illegal nafta worker law trade united states alien employer wage job labor enforcement migrant canada
+Topic 33:
+lebanon lebanese hezbollah beirut israel hostage syria syrians israeli syrian force marines israelis plo ambassador united release troop war army
+Topic 34:
+nuclear weapon missile treaty plant reactor energy defense warhead chemical arm india radiation power soviets uranium freeze strategic program test
+Topic 35:
+airline flight faa space plane air pilot airport nasa fly shuttle aircraft passenger airplane controller airlines aviation safety carrier fare
+Topic 36:
+egypt mubarak egyptian brotherhood cairo morsi egyptians protestors military sadat muslim regime square arab revolution streets opposition protests army protest
+Topic 37:
+pope church catholic vatican bishop priest cardinal catholics francis religious poland rome religion abuse christian jesus father john paul god
+Topic 38:
+bank loan money debt banking mortgage financial market greece fund pay crisis rate credit billion federal lending deposit foreclosure saving
+Topic 39:
+cancer breast patient disease treatment study cell doctor woman therapy research gene lung genetic medical surgery risk radiation brain clinical
+Topic 40:
+investigation counsel attorney jury case starr fbi intelligence committee lewinsky information testimony trial prosecutor house cia general witness evidence white
+Topic 41:
+police gun officer city crime violence shooting community black mayor law guns criminal violent ferguson kill murder mental enforcement department
+Topic 42:
+japanese japan trade market car import united states export tokyo product industry world dollar auto deficit plant tariff problem minister
+Topic 43:
+syria isis syrian assad turkey refugees islamic pbs retirement wnet al newshour attack children migrant family iraq paris turkish groups
+Topic 44:
+farmer farm food agriculture crop grain price drought program corn land tobacco wheat product acre water meat agricultural eat aid
+Topic 45:
+aids virus disease hiv vaccine patient infection infect epidemic ebola test gay health treatment blood flu sex spread prevention doctor
+Topic 46:
+carter ford jimmy reagan robin policy problem administration jim program issue governor congress hostage feel inflation nixon kennedy senator congressman
+Topic 47:
+abortion woman women roe clinic pro pregnancy issue life kavanaugh wade ms birth choice rape doctor baby procedure planning planned
+Topic 48:
+water hurricane storm city flood orleans river area katrina coast puerto disaster flooding earthquake rain rico houston shelter fema island
+Topic 49:
+cuba cuban castro cubans united states embargo miami nicaragua revolution island policy haiti latin treaty relation regime communist political military

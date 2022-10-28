@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "mmif": "http://mmif.clams.ai/0.4.0"
+  },
+  "documents": [],
+  "views": [
+    {
+      "id": "v_0",
+      "metadata": {
+        "timestamp": "2022-08-18T19:44:39.790977",
+        "app": "",
+        "contains": {
+          "http://mmif.clams.ai/0.4.0/vocabulary/TextDocument": {}
+        }
+      },
+      "annotations": [
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/TextDocument",
+          "properties": {
+            "text": {
+              "@value": "Hello, this is Jim Lehrer with the NewsHour on PBS. In the nineteen eighties, barking dogs have increasingly become a problem in urban areas."
+            },
+            "id": "td1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "v_1",
+      "metadata": {
+        "timestamp": "2022-10-27T19:34:06.494182",
+        "app": "https://apps.clams.ai/sklearn_topic_modeling",
+        "contains": {
+          "http://vocab.lappsgrid.org/Topic": {}
+        }
+      },
+      "annotations": [
+        {
+          "@type": "http://vocab.lappsgrid.org/Topic",
+          "properties": {
+            "document": "v_0:td1",
+            "start": 0,
+            "end": 141,
+            "topic_id": 46,
+            "topic": "carter ford jimmy reagan robin policy problem administration jim program",
+            "likelihood": 0.35687863061153224,
+            "id": "tp1"
+          }
+        },
+        {
+          "@type": "http://vocab.lappsgrid.org/Topic",
+          "properties": {
+            "document": "v_0:td1",
+            "start": 0,
+            "end": 141,
+            "topic_id": 43,
+            "topic": "syria isis syrian assad turkey refugees islamic pbs retirement wnet",
+            "likelihood": 0.22199976916584085,
+            "id": "tp2"
+          }
+        },
+        {
+          "@type": "http://vocab.lappsgrid.org/Topic",
+          "properties": {
+            "document": "v_0:td1",
+            "start": 0,
+            "end": 141,
+            "topic_id": 48,
+            "topic": "water hurricane storm city flood orleans river area katrina coast",
+            "likelihood": 0.19781648538585075,
+            "id": "tp3"
+          }
+        },
+        {
+          "@type": "http://vocab.lappsgrid.org/Topic",
+          "properties": {
+            "document": "v_0:td1",
+            "start": 0,
+            "end": 141,
+            "topic_id": 42,
+            "topic": "japanese japan trade market car import united states export tokyo",
+            "likelihood": 0.06025412322384613,
+            "id": "tp4"
+          }
+        },
+        {
+          "@type": "http://vocab.lappsgrid.org/Topic",
+          "properties": {
+            "document": "v_0:td1",
+            "start": 0,
+            "end": 141,
+            "topic_id": 0,
+            "topic": "obama newshour pbs women jobs said children issues foundation problems",
+            "likelihood": 0.04709790430966318,
+            "id": "tp5"
+          }
+        }
+      ]
+    }
+  ]
+}
